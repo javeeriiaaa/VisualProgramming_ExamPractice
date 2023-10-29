@@ -31,7 +31,7 @@
 			AuthorID = 0;
 			FirstName = "";
 			LastName = "";
-			Salary= 0;
+			Salary = 0;
 			EmailAddress = "";
 			Phone = "";
 			City = "";
