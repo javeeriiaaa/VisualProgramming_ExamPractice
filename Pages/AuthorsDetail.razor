@@ -1,0 +1,12 @@
+﻿@page "/authors/authorsdetail/{authorId:int}"
+@page "/authors/authorsdetail"
+@page "/author"
+
+<h3>AuthorsDetail</h3>
+<hr/>
+<p> @AuthorId J.K. Rowling wrote HarryPotter</p>
+
+@code {
+	[Parameter]
+	public int AuthorId { get; set; }
+}
